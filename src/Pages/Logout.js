@@ -6,6 +6,8 @@ import { useState, useEffect } from "react";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Login from "./Signup";
 import Navbar from "../Components/Navbar";
+import Navbarlogin from "../Components/Navbarlogin";
+
 import Footer from "../Components/Footer";
 import { useParams } from "react-router-dom";
 
@@ -14,7 +16,8 @@ function About() {
   return (
     <div className="page">
       {/* <Sidemenu /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <Navbarlogin />
 
       <button
         className="bg-green-500 w-60 h-12 text-white rounded-lg shadow-md flex items-center justify-center m-auto my-20  "

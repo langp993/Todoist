@@ -4,13 +4,13 @@ import Homeicon from "../Images/Homeicon.png";
 // import { NavLink, useNavigate } from "react-router-dom";
 import { Link, useNavigate } from "react-router-dom";
 
-const Navbar = () => {
+const Navbarlogin = () => {
   const navigate = useNavigate();
 
   return (
     <div className="bg-black px-10 p-5 flex">
       <button
-        className="bg-white w-12 h-12 text-white rounded-3xl shadow-md flex items-center justify-center "
+        className="bg-green-400 w-12 h-12 text-white rounded-3xl shadow-md flex items-center justify-center "
         onClick={() => navigate("/")}
       >
         <img src={Homeicon} alt="React Image" className="w-12 h-12" />
@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <Link
         to="/login"
-        className="flex items-center px-6 justify-between p-2 bg-yellow-500 text-white rounded-lg shadow-md"
+        className="flex items-center px-6 justify-between p-2 bg-white text-black rounded-lg shadow-md"
       >
         <h1 className="">Login</h1>
       </Link>
@@ -36,4 +36,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarlogin;

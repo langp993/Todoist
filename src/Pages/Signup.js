@@ -66,7 +66,7 @@ const Signup = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  placeholder="Password"
+                  placeholder="Password (Min 8 Characters)"
                 />
               </div>
 

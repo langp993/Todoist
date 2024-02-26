@@ -89,6 +89,8 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Homeicon from "../Images/Homeicon.png";
 import Navbar from "../Components/Navbar";
+import Navbarlogin from "../Components/Navbarlogin";
+
 import Footer from "../Components/Footer";
 import auth from "../Firebase";
 
@@ -125,7 +127,8 @@ const Login = () => {
     <main>
       <section>
         <div>
-          <Navbar />
+          {/* <Navbar /> */}
+          <Navbarlogin />
 
           <div className="bg-white flex grid grid-cols-1 items-center justify-center w-80 m-auto mt-14 p-4">
             <h1 className="m-auto font-bold text-3xl">PLEASE LOGIN</h1>
@@ -152,7 +155,7 @@ const Login = () => {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  placeholder="Password"
+                  placeholder="Password (Min 8 Characters)"
                 />
               </div>
 

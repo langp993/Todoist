@@ -25,12 +25,12 @@ const SubNavbar = () => {
         <h1 className="">About</h1>
       </Link> */}
 
-      <Link
+      {/* <Link
         to="/login"
         className="flex items-center m-auto px-20 justify-between p-2 bg-yellow-500 text-white rounded-lg shadow-md m-8"
       >
         <h1 className="">Login</h1>
-      </Link>
+      </Link> */}
     </div>
   );
 };

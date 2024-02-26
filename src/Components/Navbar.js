@@ -22,7 +22,7 @@ const Navbar = () => {
 
       <Link
         to="/login"
-        className="flex items-center px-6 justify-between p-2 bg-yellow-500 text-white rounded-lg shadow-md"
+        className="flex items-center px-6 justify-between p-2 bg-green-400 text-white rounded-lg shadow-md"
       >
         <h1 className="">Login</h1>
       </Link>

@@ -68,7 +68,7 @@ function Home() {
               handleSearch(e);
             }}
             className="text-center w-60 h-10 mx-8 w-50 sm:w-80 rounded-md bg-blue-100 font-bold text-black"
-            placeholder="Search by Category :Jewelery etc."
+            placeholder="Search by Category e.g. Jewelery"
             type="text"
           ></input>
         </form>

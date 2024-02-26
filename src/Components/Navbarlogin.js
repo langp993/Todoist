@@ -20,12 +20,12 @@ const Navbarlogin = () => {
         FARFETCH
       </h1>
 
-      <Link
+      {/* <Link
         to="/login"
         className="flex items-center px-6 justify-between p-2 bg-white text-black rounded-lg shadow-md"
       >
         <h1 className="">Login</h1>
-      </Link>
+      </Link> */}
     </div>
 
     // <div className="bg-black m-auto flex p-4">

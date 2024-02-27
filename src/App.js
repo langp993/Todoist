@@ -17,6 +17,7 @@ import Products from "./Pages/Products";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Logout from "./Pages/Logout";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Logout" element={<Logout />} />
-          <Route path="/Signup" element={<Signup />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>

@@ -9,6 +9,8 @@ import About from "./About";
 import Products from "./Products";
 import Signup from "./Signup";
 import auth from "../Firebase";
+// import { FaBeer } from "react-icons/fa";
+import { IoHeartCircle } from "react-icons/io5";
 
 import React, { useState, useEffect } from "react";
 // import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
@@ -20,7 +22,7 @@ function Home() {
   console.log("auth", auth);
   const [fetchedData, setFetchedData] = useState([]);
   const [search, setSearch] = useState("");
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   // set the initial state of filteredUsers to an empty array
   const [filteredUsers, setFilteredUsers] = useState([]);
 
@@ -61,7 +63,7 @@ function Home() {
       <Navbar />
       {/* <SubNavbar /> */}
 
-      <div className="flex justify-center bg-blue-200 p-4">
+      <div className="flex justify-center bg-white p-4">
         <form className="bg-blue-100 p-2 shadow-xl rounded-lg mt-0 text-black">
           <input
             onChange={(e) => {
@@ -92,8 +94,8 @@ function Home() {
             </div>
 
             <div className="bg-white">
-              <button className="bg-black  w-60 h-14 text-white rounded-lg shadow-md m-8">
-                Buy
+              <button className="bg-red-500 flex items-center justify-center m-auto  w-60 h-14 text-white rounded-lg shadow-md m-8">
+                <IoHeartCircle className="w-11 h-11" />
               </button>
             </div>
           </div>

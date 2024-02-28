@@ -63,13 +63,13 @@ function Home() {
       <Navbar />
       {/* <SubNavbar /> */}
 
-      <div className="flex justify-center bg-white p-4">
-        <form className="bg-blue-100 p-2 shadow-xl rounded-lg mt-0 text-black">
+      <div className="flex justify-center bg-gray-800 p-4">
+        <form className="bg-white p-2 shadow-xl rounded-lg mt-0 text-black">
           <input
             onChange={(e) => {
               handleSearch(e);
             }}
-            className="text-center w-60 h-10 mx-8 w-50 sm:w-80 rounded-md bg-blue-100 font-bold text-black"
+            className="text-center w-60 h-10 mx-8 w-50 sm:w-80 rounded-md bg-white font-bold text-black"
             placeholder="Search by Category e.g. Jewelery"
             type="text"
           ></input>

@@ -71,6 +71,8 @@ const Contact = () => {
 
 export default Contact;
 
+// Test --> Testing this part of the code to add in Tailwind.css Modal (Popup Window) !!
+
 // export default function Modal() {
 //     const [showModal, setShowModal] = React.useState(false);
 //     return (

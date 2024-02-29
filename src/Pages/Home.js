@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import logo from "../logo.svg";
 import "../App.css";
 import Footer from "../Components/Footer";
@@ -7,14 +10,7 @@ import Search from "../Components/Search";
 import About from "./About";
 import Signup from "./Signup";
 import auth from "../Firebase";
-// import { FaBeer } from "react-icons/fa";
 import { IoHeartCircle } from "react-icons/io5";
-
-import React, { useState, useEffect } from "react";
-// import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-// import { Link } from "react-router-dom";
-import { Link, useNavigate } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function Home() {
   console.log("auth", auth);

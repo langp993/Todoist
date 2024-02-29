@@ -27,12 +27,6 @@ const Navbar = () => {
         <h1 className="">Login</h1>
       </Link>
     </div>
-
-    // <div className="bg-black m-auto flex p-4">
-    //   <h1 className="flex items-center justify-center justify-between text-2xl text-white m-auto font-bold">
-    //     FARFETCH
-    //   </h1>
-    // </div>
   );
 };
 

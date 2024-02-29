@@ -5,15 +5,8 @@ import { Link, useNavigate } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-
-// import Footer from "./Components/Footer";
-// import Navbar from "./Components/Navbar";
-// import SubNavbar from "./Components/SubNavbar";
-// import Sidemenu from "./Components/Sidemenu";
-// import Search from "./Components/Search";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Products from "./Pages/Products";
 import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import Logout from "./Pages/Logout";
@@ -27,7 +20,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
           {/* <Route path="/About/:id" element={<About />}> */}
-          <Route path="/Products" element={<Products />} />
           <Route path="/Signup" element={<Signup />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Logout" element={<Logout />} />

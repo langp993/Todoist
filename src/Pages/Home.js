@@ -7,10 +7,30 @@ import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import SubNavbar from "../Components/SubNavbar";
 import Search from "../Components/Search";
+import List from "../Components/List";
+
 import About from "./About";
 import Signup from "./Signup";
 import auth from "../Firebase";
 import { IoHeartCircle } from "react-icons/io5";
+
+// function Car(props) {
+//   return <li>I am a {props.brand}</li>;
+// }
+
+// function Garage() {
+//   const cars = ["Ford", "BMW", "Audi"];
+//   return (
+//     <>
+//       <h1>Who lives in my garage?</h1>
+//       <ul>
+//         {cars.map((car) => (
+//           <Car brand={car} />
+//         ))}
+//       </ul>
+//     </>
+//   );
+// }
 
 function Home() {
   console.log("auth", auth);
@@ -55,6 +75,8 @@ function Home() {
   return (
     <div className="Home">
       <Navbar />
+      <List />
+
       {/* <SubNavbar /> */}
 
       <div className="flex justify-center bg-gray-800 p-4">
